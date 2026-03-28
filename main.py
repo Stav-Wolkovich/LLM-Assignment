@@ -11,12 +11,14 @@ def get_payload(mode, chat_history, reasoning):
     if mode == Mode.CHAT:
         return {
             "messages": chat_history,
-            "max_completion_tokens": 500
+            "model": "gpt-5-nano",
+            "max_completion_tokens": 2000
         }
     elif mode == Mode.AGENTIC:
         return {
             "messages": chat_history,
-            "max_completion_tokens": 500,
+            "model": "gpt-5-nano",
+            "max_completion_tokens": 2000,
             "tools": [
                 {"type": "web_search"}
             ],
@@ -76,7 +78,8 @@ def main():
         
         if response.status_code == 200:
             data = response.json()
-            bot_reply = data['choices'][0]['message']['content']
+            message = data['choices'][0]['message']
+            bot_reply = message.get('content') or message.get('reasoning') or ''
             chat_history.append({"role": "assistant", "content": bot_reply})
             print(f"ChatGPT-NANO-5: {bot_reply}")
 
