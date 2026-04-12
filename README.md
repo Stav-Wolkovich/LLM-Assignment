@@ -30,7 +30,7 @@ The interface is built entirely with Streamlit, offering a clean and responsive 
 
 # Project Structure
 project/
-- app.py ( Main application file)
+- main.py ( Main application file)
 - requirements.txt (Python dependencies)
 - token.env (Contains API_TOKEN=)
 - README.md (Project documentation)
@@ -70,9 +70,9 @@ Create a file named token.env in the project root:
 
 API_TOKEN=your_api_token_here
 
-## 4. Run the application
+## 4. Run the application with streamlit
 
-streamlit run app.py
+streamlit run main.py
 
 # How It Works
 ## Chat Requests
