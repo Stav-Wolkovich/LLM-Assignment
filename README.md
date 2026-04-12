@@ -47,6 +47,7 @@ venv\Scripts\activate      # Windows
 
 ## 2. Install dependencies
 Ensure your requirements.txt includes:
+
 certifi==2026.2.25
 
 charset-normalizer==3.4.6
