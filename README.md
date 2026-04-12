@@ -29,11 +29,9 @@ The interface is built entirely with Streamlit, offering a clean and responsive 
 - Streamlit chat bubbles for a native chat UI
 
 # Project Structure
-project/
-- main.py ( Main application file)
-- requirements.txt (Python dependencies)
-- token.env (Contains API_TOKEN=)
-- README.md (Project documentation)
+
+<img width="436" height="155" alt="image" src="https://github.com/user-attachments/assets/332634c0-2aa2-4572-83b3-3d747920c2a1" />
+
 
 
 # Installation
