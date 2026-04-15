@@ -30,7 +30,7 @@ The interface is built entirely with Streamlit, offering a clean and responsive 
 
 # Project Structure
 
-<img width="696" height="186" alt="image" src="https://github.com/user-attachments/assets/5ef279dc-481a-4470-8428-52c72150829c" />
+<img width="602" height="181" alt="image" src="https://github.com/user-attachments/assets/382ab98e-f8b0-4739-9e4f-dbe36a06db4c" />
 
 
 # Installation
